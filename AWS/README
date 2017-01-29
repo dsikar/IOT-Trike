@@ -1,0 +1,12 @@
+* IOT Trike *
+
+Requirements - apache2 and PHP7.
+
+1. User accesses webpage and clicks desired option (forward, right, left, stop, reverse).
+2. IOT trike accesses webpage querying apache2 access.log for requested action.
+
+
+NB www-data user must have access to apache2 access logs. Run access_log.sh to enable.
+
+See https://github.com/dsikar/IOT-Trike for complete code.
+
